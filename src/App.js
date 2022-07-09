@@ -3,40 +3,41 @@ import React from "react";
 import { Download, Features, SectionWrapper } from "./components";
 import assets from "./assets";
 import styles from "./styles/Global";
+import dummyData from "./data/dummy";
+
+const { banner01, banner02, banner03, banner04 } = dummyData;
 
 const App = () => {
   return (
     <>
       <SectionWrapper
-        title="Your own store of Nifty NFTs.
-        Start Selling & Growing"
-        description="Buy, store, collect NFTS, exchange & earn crypto. 
-        Join 25+ million people using ProNef Marketplace."
+        title={banner01.title}
+        description={banner01.description}
         showBtn
-        mockupImg={assets.homeHero}
+        mockupImg={banner01.image}
         banner="banner"
       />
 
       <SectionWrapper
-        title="Smart User Interface Marketplace"
-        description="Experience a buttery UI of ProNet NFT Marketplace. Smooth constant colors of fluent UI design."
-        mockupImg={assets.homeCards}
+        title={banner02.title}
+        description={banner02.description}
+        mockupImg={banner02.image}
         reverse
       />
 
       <Features />
 
       <SectionWrapper
-        title="Deployment"
-        description="ProNef is built using Expo which runs natively on all users devices. You can easily get your app into people's hands"
-        mockupImg={assets.feature}
+        title={banner03.title}
+        description={banner03.description}
+        mockupImg={banner03.image}
         reverse
       />
 
       <SectionWrapper
-        title="Creative way to showcase the store"
-        description="The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT."
-        mockupImg={assets.mockup}
+        title={banner04.title}
+        description={banner04.description}
+        mockupImg={banner04.image}
         banner="banner02"
       />
 
