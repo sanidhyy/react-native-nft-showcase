@@ -38,6 +38,8 @@ const App = () => {
         mockupImg={assets.mockup}
         banner="banner02"
       />
+
+      <Download />
     </>
   );
 };
