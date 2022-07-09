@@ -2,6 +2,21 @@
   "name": "react-native-showcase",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": "Sanidhya Kr. Verma",
+  "description": "React Native App Showcase Landing Page",
+  "keywords": [
+    "reactjs",
+    "react",
+    "landing-page",
+    "app-showcase",
+    "tailwindcss",
+    "modern-ui/ux",
+    "js",
+    "javascript",
+    "html",
+    "css"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
