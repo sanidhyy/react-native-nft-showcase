@@ -28,6 +28,13 @@ const dummyData = {
       "The app contains two screens. The first screen lists all NFTs while the second one shows the details of a specific NFT.",
     image: assets.mockup,
   },
+
+  links: {
+    githubSourceCode: "http://github.com",
+    expoAppStore:
+      "https://expo.dev/@devcoder0121/react-native-app?serviceType=classic&distribution=expo-go",
+    githubProfile: "https://github.com/Technical-Shubham-tech",
+  },
 };
 
 export default dummyData;

@@ -3,6 +3,7 @@ import React from "react";
 import styles from "../styles/Global";
 import assets from "../assets";
 import Button from "./Button";
+import dummyData from "../data/dummy";
 
 const SectionWrapper = ({
   title,
@@ -42,7 +43,12 @@ const SectionWrapper = ({
           >
             {description}
           </p>
-          {showBtn && <Button assetUrl={assets.expo} link="#" />}
+          {showBtn && (
+            <Button
+              assetUrl={assets.expo}
+              link={dummyData.links.expoAppStore}
+            />
+          )}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
           <img

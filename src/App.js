@@ -1,11 +1,16 @@
 import React from "react";
 
 import { Download, Features, SectionWrapper } from "./components";
-import assets from "./assets";
 import styles from "./styles/Global";
 import dummyData from "./data/dummy";
 
-const { banner01, banner02, banner03, banner04 } = dummyData;
+const {
+  banner01,
+  banner02,
+  banner03,
+  banner04,
+  links: { githubProfile },
+} = dummyData;
 
 const App = () => {
   return (
@@ -48,7 +53,7 @@ const App = () => {
           Made with ❤️ by{" "}
           <a
             className="font-bold "
-            href="https://github.com/Technical-Shubham-tech"
+            href={githubProfile}
             target="_blank"
             rel="noreferrer"
           >

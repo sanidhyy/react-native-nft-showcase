@@ -2,6 +2,7 @@ import React from "react";
 
 import styles from "../styles/Global";
 import assets from "../assets";
+import dummyData from "../data/dummy";
 
 const Download = () => {
   return (
@@ -19,7 +20,9 @@ const Download = () => {
         <button
           type="button"
           className={styles.btnPrimary}
-          onClick={() => window.open("http://github.com", "_blank", "noopener")}
+          onClick={() =>
+            window.open(dummyData.links.githubSourceCode, "_blank", "noopener")
+          }
         >
           Source Code
         </button>
