@@ -1,3 +1,4 @@
+// CSS Styles
 const styles = {
   whiteText: "text-white",
   blackText: "text-tertiary",

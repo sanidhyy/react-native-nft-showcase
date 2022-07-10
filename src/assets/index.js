@@ -1,3 +1,6 @@
+// Add new assets here after creating them
+// Don't remove anything from here (if not sure)
+
 import homeHero from "./home_hero.png";
 import homeCards from "./home_cards.png";
 import feature from "./feature.png";

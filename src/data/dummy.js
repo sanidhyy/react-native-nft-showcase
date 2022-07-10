@@ -1,6 +1,11 @@
+// This file contains dummy data to be used by whole app
+// Don't remove anything from here (if not sure)
+
 import assets from "../assets";
 
+// Dummy Data
 const dummyData = {
+  // Banners
   banner01: {
     title: "Your own store of Nifty NFTs. Start Selling & Growing",
     description:
@@ -29,8 +34,10 @@ const dummyData = {
     image: assets.mockup,
   },
 
+  // Links
   links: {
-    githubSourceCode: "http://github.com",
+    githubSourceCode:
+      "https://github.com/Technical-Shubham-tech/react-native-nft-app",
     expoAppStore:
       "https://expo.dev/@devcoder0121/react-native-app?serviceType=classic&distribution=expo-go",
     githubProfile: "https://github.com/Technical-Shubham-tech",

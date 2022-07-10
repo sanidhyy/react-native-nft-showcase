@@ -4,10 +4,12 @@ import styles from "../styles/Global";
 import assets from "../assets";
 import dummyData from "../data/dummy";
 
+// Download
 const Download = () => {
   return (
     <div className={`${styles.section} ${styles.bgWhite}`}>
       <div className={`${styles.subSection} flex-col text-center`}>
+        {/* Heading */}
         <div>
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>
             Download the Source Code
@@ -17,6 +19,7 @@ const Download = () => {
           </p>
         </div>
 
+        {/* Source Code Button */}
         <button
           type="button"
           className={styles.btnPrimary}
@@ -28,6 +31,7 @@ const Download = () => {
         </button>
 
         <div className={styles.flexCenter}>
+          {/* Banner Image */}
           <img src={assets.scene} alt="Download" className={styles.fullImg} />
         </div>
       </div>

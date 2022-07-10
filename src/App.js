@@ -4,6 +4,7 @@ import { Download, Features, SectionWrapper } from "./components";
 import styles from "./styles/Global";
 import dummyData from "./data/dummy";
 
+// Dummy Data
 const {
   banner01,
   banner02,
@@ -12,9 +13,11 @@ const {
   links: { githubProfile },
 } = dummyData;
 
+// App
 const App = () => {
   return (
     <>
+      {/* View it on Expo Store */}
       <SectionWrapper
         title={banner01.title}
         description={banner01.description}
@@ -23,6 +26,7 @@ const App = () => {
         banner="banner"
       />
 
+      {/* Smart User Interface */}
       <SectionWrapper
         title={banner02.title}
         description={banner02.description}
@@ -30,14 +34,18 @@ const App = () => {
         reverse
       />
 
+      {/* Technologies */}
       <Features />
 
+      {/* Deployment */}
       <SectionWrapper
         title={banner03.title}
         description={banner03.description}
         mockupImg={banner03.image}
         reverse
       />
+
+      {/* showcase the store */}
 
       <SectionWrapper
         title={banner04.title}
@@ -46,9 +54,12 @@ const App = () => {
         banner="banner02"
       />
 
+      {/* Download Source Code */}
       <Download />
 
+      {/* Footer */}
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        {/* Credits */}
         <p className={`${styles.pText} ${styles.whiteText}`}>
           Made with ❤️ by{" "}
           <a

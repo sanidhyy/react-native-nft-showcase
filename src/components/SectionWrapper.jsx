@@ -5,6 +5,7 @@ import assets from "../assets";
 import Button from "./Button";
 import dummyData from "../data/dummy";
 
+// Section Wrapper
 const SectionWrapper = ({
   title,
   description,
@@ -29,6 +30,7 @@ const SectionWrapper = ({
             reverse ? " fadeRightMini" : " fadeLeftMini"
           } ${reverse ? styles.textRight : styles.textLeft}`}
         >
+          {/* Title */}
           <h1
             className={`${reverse ? styles.blackText : styles.whiteText} ${
               styles.h1Text
@@ -36,6 +38,8 @@ const SectionWrapper = ({
           >
             {title}
           </h1>
+
+          {/* Description */}
           <p
             className={`${reverse ? styles.blackText : styles.whiteText} ${
               styles.descriptionText
@@ -43,6 +47,8 @@ const SectionWrapper = ({
           >
             {description}
           </p>
+
+          {/* Button */}
           {showBtn && (
             <Button
               assetUrl={assets.expo}
@@ -50,6 +56,8 @@ const SectionWrapper = ({
             />
           )}
         </div>
+
+        {/* Section Mockup Image */}
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
           <img
             src={mockupImg}
