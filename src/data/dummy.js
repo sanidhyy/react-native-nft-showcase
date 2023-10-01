@@ -37,10 +37,10 @@ const dummyData = {
   // Links
   links: {
     githubSourceCode:
-      "https://github.com/Technical-Shubham-tech/react-native-nft-app",
+      "https://github.com/sanidhyy/react-native-nft-app",
     expoAppStore:
       "https://expo.dev/@devcoder0121/react-native-app?serviceType=classic&distribution=expo-go",
-    githubProfile: "https://github.com/Technical-Shubham-tech",
+    githubProfile: "https://github.com/sanidhyy",
   },
 };
 
