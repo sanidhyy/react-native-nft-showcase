@@ -25,6 +25,14 @@
 4. Once packages are installed, you can start this app using `npm start` or `yarn start`.
 5. Now app is fully configured and you can start using this app :+1:.
 
+### :raising_hand: Need Help?
+
+If you run into issues during installation or setup:
+
+- **GitHub Discussions** — [Open a Q&A discussion](https://github.com/sanidhyy/react-native-nft-showcase/discussions/new?category=q-a) for setup and troubleshooting help.
+- **Email** — [sanidhyyy@gmail.com](mailto:sanidhyyy@gmail.com)
+- **Discord** — `@sanidhyy`
+
 ## :camera: Screenshots:
 
 ![Modern UI/UX](https://user-images.githubusercontent.com/71302066/178154518-415780e3-e882-4c79-acf2-638543008725.png "Modern UI/UX")
