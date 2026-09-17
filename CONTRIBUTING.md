@@ -1,7 +1,7 @@
 ## Contributing
 
-[fork]: https://github.com/Technical-Shubham-tech/react-native-nft-showcase/fork
-[pr]: https://github.com/Technical-Shubham-tech/react-native-nft-showcase/pulls
+[fork]: https://github.com/sanidhyy/react-native-nft-showcase/fork
+[pr]: https://github.com/sanidhyy/react-native-nft-showcase/pulls
 [style]: https://standardjs.com/
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
